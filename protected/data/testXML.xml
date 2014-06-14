@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<req:ShipmentValidateRequestAP xmlns:req="http://www.dhl.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dhl.com
+	ship-val-req_AP.xsd">
+		
+		<Request>
+			<ServiceHeader>
+				<MessageTime>2013-02-06T04:07:25+00:00</MessageTime>
+				<MessageReference>4471343337661382917298794735749</MessageReference>
+				<SiteID>APMediaM9</SiteID>
+				<Password>apwoEM27X</Password>
+			</ServiceHeader>
+		</Request>
+		<LanguageCode>en</LanguageCode>
+		<PiecesEnabled>Y</PiecesEnabled>
+		<Billing>
+			<ShipperAccountNumber>540293320</ShipperAccountNumber>
+			<ShippingPaymentType>S</ShippingPaymentType>	
+			<BillingAccountNumber>540293320</BillingAccountNumber>
+			<DutyPaymentType>S</DutyPaymentType>
+		</Billing>
+		<Consignee>
+			<CompanyName>Febri Pratama</CompanyName>
+			<AddressLine>Jl .cendana raya</AddressLine>
+			<AddressLine></AddressLine>
+			<City>Singapore</City>
+			<PostalCode>069119</PostalCode>
+			<CountryCode>SG</CountryCode>
+			<CountryName>Singapore</CountryName>
+			<Contact>
+				<PersonName>Febri Pratama</PersonName>
+				<PhoneNumber>021 8864364</PhoneNumber>
+				<PhoneExtension>44444</PhoneExtension>
+				<FaxNumber>444444444</FaxNumber>
+				<Telex>44444444444</Telex>
+				<Email>
+					<From>neo_gazebo@yahoo.co.id</From>
+					<To>neo_gazebo@yahoo.co.id</To>
+					<cc>testcc1</cc>
+					<cc>testcc2</cc>
+					<Subject>test email</Subject>
+					<ReplyTo>test@dhl.com</ReplyTo>
+					<Body>this is test shipment</Body>
+				</Email>
+			</Contact>
+		</Consignee>
+		<Commodity>
+			<CommodityCode>1</CommodityCode>
+			<CommodityName>String</CommodityName>
+		</Commodity>
+		<Dutiable>
+			<DeclaredValue>10.00</DeclaredValue>
+			<DeclaredCurrency>USD</DeclaredCurrency>
+			<ShipperEIN>Text</ShipperEIN>
+		</Dutiable>
+		<Reference>
+			<ReferenceID>100000114</ReferenceID>
+			<ReferenceType>St</ReferenceType>
+		</Reference>
+		<ShipmentDetails>
+			<NumberOfPieces>1</NumberOfPieces>
+			<CurrencyCode>USD</CurrencyCode>
+			<Pieces>
+							<Piece>
+								<PieceID>1</PieceID>
+								<PackageType>EE</PackageType>
+								<Weight>1</Weight>
+							</Piece>
+			</Pieces>
+			<PackageType>CP</PackageType>
+			<Weight>1</Weight>
+			<DimensionUnit>C</DimensionUnit>
+			<WeightUnit>K</WeightUnit>
+			<GlobalProductCode>P</GlobalProductCode>
+			<LocalProductCode>P</LocalProductCode>
+			<DoorTo>DD</DoorTo>
+			<Date>2013-02-06</Date>
+			<Contents>This content required</Contents>
+			<IsDutiable>Y</IsDutiable>
+			<InsuredAmount>3000.10</InsuredAmount>
+		</ShipmentDetails>
+		<Shipper>
+			<ShipperID>967080215</ShipperID>
+			<CompanyName>Admin</CompanyName>
+			<AddressLine>Jakarta</AddressLine>
+			<AddressLine>Jakarta</AddressLine>
+			<City>Jakarta</City>
+			<PostalCode>10410</PostalCode>
+			<CountryCode>ID</CountryCode>
+			<CountryName>Indonesia</CountryName>
+			<Contact>
+				<PersonName>DHL</PersonName>
+				<PhoneNumber>08988787</PhoneNumber>
+				<PhoneExtension>2222</PhoneExtension>
+				<FaxNumber>2222222222</FaxNumber>
+				<Telex>2222222222</Telex>
+				<Email>
+					<From>technolyze@gmail.com</From>
+					<To>technolyze@gmail.com</To>
+					<cc>CC</cc>
+					<cc>CC</cc>
+					<Subject>Subject</Subject>
+					<ReplyTo>ReplayTo</ReplyTo>
+					<Body>Body</Body>
+				</Email>
+			</Contact>
+		</Shipper>
+	</req:ShipmentValidateRequestAP>

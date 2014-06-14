@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<res:ShipmentValidateResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com ship-val-res.xsd'>
+	<Response>
+		<ServiceHeader>
+			<MessageTime>2012-12-19T09:35:27+00:00</MessageTime>
+			<MessageReference>1333919942916618971781177657472</MessageReference>
+			<SiteID>APMediaM9</SiteID>
+		</ServiceHeader>
+	</Response>
+	<Note>
+		<ActionNote>Success</ActionNote>
+	</Note>
+	<AirwayBillNumber>9853185952</AirwayBillNumber>
+	<BillingCode>DSA</BillingCode>
+	<CurrencyCode>USD</CurrencyCode>
+	<CourierMessage>For testing purpose only</CourierMessage>
+	<DestinationServiceArea>
+		<ServiceAreaCode>SIN</ServiceAreaCode>
+		<FacilityCode>RO</FacilityCode>
+		<InboundSortCode>.</InboundSortCode>
+	</DestinationServiceArea>
+	<OriginServiceArea>
+		<ServiceAreaCode>JKT</ServiceAreaCode>
+		<OutboundSortCode>.</OutboundSortCode>
+	</OriginServiceArea>
+	<PackageCharge>63.00</PackageCharge>
+	<Rated>Y</Rated>
+	<ShippingCharge>78.90</ShippingCharge>
+	<InsuredAmount>3000.10</InsuredAmount>
+	<WeightUnit>K</WeightUnit>
+	<ChargeableWeight>2</ChargeableWeight>
+	<DimensionalWeight>0.0</DimensionalWeight>
+	<CountryCode>ID</CountryCode>
+	<Barcodes>
+		<AWBBarCode>iVBORw0KGgoAAAANSUhEUgAAAYwAAABeAQMAAAAKdrGZAAAABlBMVEX///8AAABVwtN+AAAAaUlEQVR42mNkYGBIyL8whfvc22UTzVN1u5IbM7Zs4FbK0f0lXBZ8cpkGY9S9KZs1uxjCy8Rc781XWsDAwMRAMhjVMqplVMuollEto1pGtYxqGdUyqmVUy6iWUS2jWka1jGoZ1TKqhVQAAJyjFLxBqQmCAAAAAElFTkSuQmCC</AWBBarCode>
+		<OriginDestnBarcode>iVBORw0KGgoAAAANSUhEUgAAATUAAABeAQMAAAB4lRFqAAAABlBMVEX///8AAABVwtN+AAAAVklEQVR42mNkYGBIyL8whWGt5LIpf30CdL+XiQVv2bBZs4shSuSo7i/hqPwLEy8wMDAxEAdG1Y2qG1U3qm5U3ai6UXWj6kbVjaobVTeqblTdqDpqqAMANdUQvDBxVdsAAAAASUVORK5CYII=</OriginDestnBarcode>
+		<DHLRoutingBarCode>iVBORw0KGgoAAAANSUhEUgAAAcIAAABeAQMAAACKBYaKAAAABlBMVEX///8AAABVwtN+AAAAdElEQVR42mNkYGCo5K1+IJ63cMb/B48kORjkGNwtfrGf2H7rfdU+D4ZZrJMfsDYw/M5bwCDewMAQ9X4Sw/N5LyWBTCYGcsGozlGdozpHdY7qHNU5qnNU56jOUZ2jOkd1juoc1Tmqc1TnqM5RnaM6R3UONZ0AN8sXvCGIljMAAAAASUVORK5CYII=</DHLRoutingBarCode>
+	</Barcodes>
+	<Piece>1</Piece>
+	<Contents>For testing purpose only</Contents>
+	<Reference>
+		<ReferenceID>100000026</ReferenceID>
+		<ReferenceType>St</ReferenceType>
+	</Reference>
+	<Consignee>
+		<CompanyName>ambikuk salawean</CompanyName>
+		<AddressLine>jl cendrawasih no 45</AddressLine>
+		<City>singapore</City>
+		<PostalCode>069119</PostalCode>
+		<CountryCode>SG</CountryCode>
+		<CountryName>Singapore</CountryName>
+		<Contact>
+			<PersonName>ambikuk salawean</PersonName>
+			<PhoneNumber>0898766755</PhoneNumber>
+			<PhoneExtension>44444</PhoneExtension>
+			<FaxNumber>444444444</FaxNumber>
+			<Telex>44444444444</Telex>
+			<Email>
+				<From>ambikuk@gmail.com</From>
+				<To>ambikuk@gmail.com</To>
+				<cc>testcc1</cc>
+				<Subject>test email</Subject>
+				<ReplyTo>test@dhl.com</ReplyTo>
+				<Body>this is test shipment</Body>
+			</Email>
+		</Contact>
+	</Consignee>
+	<Shipper>
+		<ShipperID>967080215</ShipperID>
+		<CompanyName>Admin</CompanyName>
+		<AddressLine>Jakarta</AddressLine>
+		<AddressLine>Jakarta</AddressLine>
+		<City>Jakarta</City>
+		<PostalCode>10410</PostalCode>
+		<CountryCode>ID</CountryCode>
+		<CountryName>Indonesia</CountryName>
+		<Contact>
+			<PersonName>Owner</PersonName>
+			<PhoneNumber>08988787</PhoneNumber>
+			<PhoneExtension>2222</PhoneExtension>
+			<FaxNumber>2222222222</FaxNumber>
+			<Telex>2222222222</Telex>
+			<Email>
+				<From>owner@example.com</From>
+				<To>owner@example.com</To>
+				<cc>CC</cc>
+				<Subject>Subject</Subject>
+				<ReplyTo>ReplayTo</ReplyTo>
+				<Body>Body</Body>
+			</Email>
+		</Contact>
+	</Shipper>
+	<CustomerID>131297</CustomerID>
+	<ShipmentDate>2012-12-19</ShipmentDate>
+	<GlobalProductCode>P</GlobalProductCode>
+	<Billing>
+		<ShipperAccountNumber>540293320</ShipperAccountNumber>
+		<ShippingPaymentType>S</ShippingPaymentType>
+		<BillingAccountNumber>540293320</BillingAccountNumber>
+		<DutyPaymentType>S</DutyPaymentType>
+	</Billing>
+	<Dutiable>
+		<DeclaredValue>10.00</DeclaredValue>
+		<DeclaredCurrency>USD</DeclaredCurrency>
+		<ShipperEIN>Text</ShipperEIN>
+	</Dutiable>
+	<DHLRoutingCode>SG069119+48000001</DHLRoutingCode>
+	<DHLRoutingDataId>2L</DHLRoutingDataId>
+	<ProductContentCode>WPX</ProductContentCode>
+	<ProductShortName>EXPRESS WORLDWIDE</ProductShortName>
+	<InternalServiceCode>C</InternalServiceCode>
+	<DeliveryDateCode/>
+	<DeliveryTimeCode/>
+	<Pieces>
+		<Piece>
+			<PieceNumber>1</PieceNumber>
+			<Weight>2.00</Weight>
+			<PackageType>EE</PackageType>
+			<DimWeight>0.0</DimWeight>
+			<DataIdentifier>J</DataIdentifier>
+			<LicensePlate>JD012036494450004150</LicensePlate>
+			<LicensePlateBarCode>iVBORw0KGgoAAAANSUhEUgAAAZYAAABeAQMAAAA6+qC4AAAABlBMVEX///8AAABVwtN+AAAAaElEQVR42u3LIRJFYBiG0ZeAomiKGauxExtQ3Cv4mj9rzJixBauwB4XIKliDJjynH0/SL26mw1VtvlpoyRnM9/AvLI1qV2rM7k2avbWzxYJr753k6z0Oh8PhcDgcDofD4XA4HA7nS+cB650VvMZXKm8AAAAASUVORK5CYII=</LicensePlateBarCode>
+		</Piece>
+	</Pieces>
+</res:ShipmentValidateResponse>
